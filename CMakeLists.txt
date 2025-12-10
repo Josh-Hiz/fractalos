@@ -25,9 +25,6 @@ target_include_directories(imgui PUBLIC
     ${IMGUI_DIR}/backends
 )
 
-# >>> This is the important part: give ImGui the GLFW usage requirements <<<
-# Most glfw3 CMake configs export a target called "glfw".
-# If your setup uses "glfw3" instead, change it below.
 target_link_libraries(imgui PUBLIC glfw)
 
 add_executable(mandelbulb

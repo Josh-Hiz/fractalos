@@ -8,4 +8,4 @@ Examples of the variety of mandelbulbs that can be generated:
 
 ![p1.png](assets/p1.png)
 
-![video](./assets/recording.mov)
+![video](./assets/recording.gif)
